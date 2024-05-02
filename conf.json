@@ -1,0 +1,24 @@
+{
+    "__description__"   :   "Parameter explanation in main.py",
+    
+    "mode"          :   "fedavg",
+    "split_mode"    :   "random_split",
+    "model_name"    :   "resnet18",
+    "dataset_name"  :   "cifar100",
+
+    "batch_size"    :   128,
+    "lr"            :   0.001,
+    "momentum"      :   0.0001,
+    
+    "lambda_eps"      :   3,
+    "lambda_mps"      :   2,
+
+    "global_epoch_num"      :   1000,
+    "local_epoch_num"       :   1,
+    "client_num"            :   20,
+    "client_train_ratio"    :   0.7,
+    "client_per_class"      :   5,
+
+    "is_set_seed"   :   true,
+    "seed"          :   0
+}
